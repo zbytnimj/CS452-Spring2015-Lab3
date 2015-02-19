@@ -1,0 +1,31 @@
+CS452/EE465 Computer Graphics Spring 2015
++Lab #3
++
++due: Monday, 3/2/15 at midnight
++
++Write a WebGL application that will display, light, and rotate a 3D shape.
++
++Create an interesting 3D object (other than a cube or a sphere). Your object should be in local coordinates, 
++so you will need a ModelView matrix to transform into model then eye coordinates.
++Add a light, and use the modified Phong lighting model to color your object.
++The arrow keys will rotate the object as follows: left arrow - rotate counterclockwise about the Y axis; 
++right arrow - rotate clockwise about the Y axis; up arrow - rotate counterclockwise about the X axis;
++down arrow - rotate clockwise about the X axis.
++Use a perspective projection matrix.
++
++Assumptions:
++1. vertex coordinates are not in the default range - a (non identity) Model-View matrix is required.
++
++2. use webgl-utils.js, initShaders.js and MV.js from Angel
++
++3. three files are required in the solution: lab3.html, lab3.js and lab3.README.txt. The lab3.README.txt file
++will contain your name and date along with a brief description of your solution. Note, however, that all
++files should contain a comment including your name and date.
++
++4. add a light, and use the modified Phong lighting model. It's your choice about whether to compute
++the lighting in the vertex shader or the fragment shader
++
++5. interact with your object with the arrow keys as described above.
++
++6. use a perspective projection matrix (you determine the properties)
++
