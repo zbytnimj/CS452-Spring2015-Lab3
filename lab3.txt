@@ -6,11 +6,15 @@ due: Monday, 3/2/15 at midnight
 Write a WebGL application that will display, light, and rotate a 3D shape.
 
 Create an interesting 3D object (other than a cube or a sphere). Your object should be in local coordinates, 
-so you will need a ModelView matrix to transform into model then eye coordinates.
+so you will need a ModelView matrix to transform into model then eye coordinates. It should be a color other 
+than gray.
+
 Add a light, and use the modified Phong lighting model to color your object.
+
 The arrow keys will rotate the object as follows: left arrow - rotate counterclockwise about the Y axis; 
 right arrow - rotate clockwise about the Y axis; up arrow - rotate counterclockwise about the X axis;
 down arrow - rotate clockwise about the X axis.
+
 Use a perspective projection matrix.
 
 Requirements:
