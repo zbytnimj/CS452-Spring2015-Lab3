@@ -3,4 +3,5 @@ The Object that I have created is initially multi-colored, and when I use the Ph
 I do not know why it does this, and by looking at the object, there is no evidence of a lighting model.  I have tried to put in
 all of the code from a sample source on Angel's page, including the 3 different types of lighting (specular, diffuse, and 
 ambient), and I included the projection matrix as well as the modelview matrix.  I do not know why it is not properly lighting 
-my object.
+my object.  I think that I am very close to the desired solution, and there could possibly exist one or two small errors, in 
+which I cannot find.  
